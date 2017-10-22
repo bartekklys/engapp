@@ -1,4 +1,4 @@
-package pl.bartekk.engapp;
+package pl.bartekk.engapp.persistance;
 
 import javax.persistence.*;
 import java.util.Date;

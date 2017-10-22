@@ -1,22 +1,5 @@
 package pl.bartekk.engapp.utils;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import pl.bartekk.engapp.Category;
-import pl.bartekk.engapp.Level;
-import pl.bartekk.engapp.Word;
-import pl.bartekk.engapp.WordRepository;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
 public class DataParser {
 
     /*@Autowired

@@ -1,4 +1,4 @@
-package pl.bartekk.engapp;
+package pl.bartekk.engapp.service;
 
 import java.io.IOException;
 

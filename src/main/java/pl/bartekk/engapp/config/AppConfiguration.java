@@ -1,4 +1,4 @@
-package pl.bartekk.engapp;
+package pl.bartekk.engapp.config;
 
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 import org.springframework.context.annotation.Bean;

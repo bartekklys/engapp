@@ -1,4 +1,4 @@
-package pl.bartekk.engapp;
+package pl.bartekk.engapp.service;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -6,6 +6,11 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pl.bartekk.engapp.dao.CategoryRepository;
+import pl.bartekk.engapp.dao.WordRepository;
+import pl.bartekk.engapp.persistance.Category;
+import pl.bartekk.engapp.persistance.Level;
+import pl.bartekk.engapp.persistance.Word;
 
 import java.io.File;
 import java.io.IOException;
