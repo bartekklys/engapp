@@ -46,7 +46,7 @@ public class WordServiceImpl implements WordService {
 
             String className = level.className();
 
-            StringBuilder sb = new StringBuilder("");
+            /*StringBuilder sb = new StringBuilder("");
             sb.append(polishWord.text());
             sb.append(";");
             if (aEnglishWord != null) {
@@ -61,7 +61,7 @@ public class WordServiceImpl implements WordService {
             }
             sb.append(className.substring(className.length() - 2));
             sb.append(";family");
-            System.out.println(sb.toString());
+            System.out.println(sb.toString());*/
 
             word.setPolish(polishWord.text());
 
@@ -74,7 +74,7 @@ public class WordServiceImpl implements WordService {
             word.setCategory(category);
             word.setLevel(Level.valueOf(className.substring(className.length() - 2).toUpperCase()));
             word.setDateAdded(new Date());
-            word.setSoundUrl(href.text());
+            word.setSoundUrl(href.attr("href"));
 
             wordRepository.save(word);
         }
